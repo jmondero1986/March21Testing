@@ -29,8 +29,8 @@
     <None Update="Ajit\data\blankForm.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="TestData\KS_TestData.csv">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <None Update="JULIEM\Data\RequestFormCSV.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
