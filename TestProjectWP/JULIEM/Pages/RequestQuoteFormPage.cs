@@ -29,18 +29,18 @@ namespace TestProjectWP.JULIEM.Pages
         public IWebElement SubmitButton => _browser.FindElement(By.Id("wpforms-submit-22"));
 
 
-        //public void FillandSubmitForm(string firstname, string lastname, string businessname, string email, string phone, string request ) 
-        
-        //{
-        //    FirstNameTxtbox.SendKeys(firstname);
-        //    LastNameTxtbox.SendKeys(lastname);
-        //    BusinessNameTxtbox.SendKeys(businessname);
-        //    EmailTxtbox.SendKeys(email);
-        //    PhoneTxtbox.SendKeys(phone);
-        //    RequestTxtbox.SendKeys(request);
-        //    SubmitButton.Click();
+        public void FillandSubmitForm(string firstname, string lastname, string businessname, string email, string phone, string request)
 
-        //}
+        {
+            FirstNameTxtbox.SendKeys(firstname);
+            LastNameTxtbox.SendKeys(lastname);
+            BusinessNameTxtbox.SendKeys(businessname);
+            EmailTxtbox.SendKeys(email);
+            PhoneTxtbox.SendKeys(phone);
+            RequestTxtbox.SendKeys(request);
+            SubmitButton.Click();
+
+        }
 
         public void FillandSubmitForm(RequestBlankFormModel data)
         {
